@@ -205,6 +205,7 @@ cd ms-productos
 La app consume directamente la API pública de **Open Food Facts**, sin pasar por estos microservicios, para buscar datos de un producto por su código de barras:
 
 ```
+
 GET https://world.openfoodfacts.org/api/v2/product/{codigo}.json
 ```
 
